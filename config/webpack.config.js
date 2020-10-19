@@ -5,13 +5,6 @@ const path = require('path');
 * @type {{}}
 */
 let externals = {};
-fs.readdirSync('node_modules')
-    .filter(function (dir) {
-        return ['.bin'].indexOf(dir) === -1;
-    })
-    .forEach(function (dir) {
-        externals[dir] = 'commonjs ' + dir;
-    });
 
 module.exports = {
     mode: 'production', // webpack4新增属性，默认返回production,提供一些默认配置，例如cache:true
