@@ -10,8 +10,12 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "express": "^4.17.1",
-    "webpack": "^4.40.2",
-    "webpack-cli": "^3.3.8"
+    "http-proxy-middleware": "^2.0.6",
+    "koa": "^2.13.4",
+    "koa-mount": "^4.0.0",
+    "koa-static": "^5.0.0",
+    "koa2-connect": "^1.0.2",
+    "webpack": "^5.10.1",
+    "webpack-cli": "^4.2.0"
   }
 }
